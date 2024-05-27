@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+<form action="check-user" method="POST">
+  <form action="check-user" method="POST">
+    <center>
+  <h1>LOGIN</h1>
+  <label id="userLabel" class="labelClass"> Username: </label>
+  <input type="text" name="username">
+  </br>
+  <label id="passLabel" class="labelClass"> Password: </label>
+  <input type="password" name="password">
+  </br>
+  <a href="#">Forgot Password</a>
+  </br>
+  <input type="submit" value="Login" id="submit">
+</center>
+</form>
+</body>
+
+</html>

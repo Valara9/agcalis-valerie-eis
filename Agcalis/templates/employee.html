@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE LIST</title>
+    <link rel="stylesheet" href="Bulma/bulma.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css')}}">
+</head>
+
+<body>
+
+    <div class=".container.is-max-widescreen	">
+        <div class="notification  has-background-success-light">
+            <strong class="	is-size-2 has-text-weight ">EMPLOYEE INFORMATION SYSTEM</strong>
+        </div>
+    </div>
+
+    <div class="fixed1">
+    </div>
+
+    <div class="employee_list">
+        <h2 class="employee is-size-3	has-text-weight-bold	">Employee List<h2>
+    </div>   
+
+    <div class="personal">
+      <h2 class="personal1  is-size-3	has-text-weight-bold	">Personal Information<h2>
+    </div>   
+
+   <div class="education">
+    <h2 class="educational is-size-3	has-text-weight-bold	">Educational Information<h2>
+   </div> 
+
+ 
+   <div class="experience">
+    <h2 class="experience1 is-size-3	has-text-weight-bold	">Work Experience<h2>
+   </div> 
+
+
+   <div class="trainings">
+    <h2 class="training1 is-size-3	has-text-weight-bold	">Trainings<h2>
+   </div> 
+
+
+   <div class="logout">
+    <h2 class="logout1 is-size-3	has-text-weight-bold	">Logout<h2>
+   </div> 
+
+    <h2 class="title is-3 has-text-weight-grey">EMPLOYEE LIST</h2>
+
+
+        <table class="table is-bordered">
+
+      <thead>
+        <tr class="has-background-success-light">
+          <th class="has-text-centered">EMPLOYEE</th>
+          <th class="has-text-centered">LAST NAME </th>
+          <th class="has-text-centered">FIRST NAME </th>
+          <th class="has-text-centered">GENDER </th>
+
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for employee in employees %}
+        <tr>
+          <td class="has-text-centered is size-5">{{ employee[0] }}</td>
+          <td class="has-text-centered is size-5">{{ employee[1] }}</td>
+          <td class="has-text-centered is size-5">{{ employee[2] }}</td>
+          <td class="has-text-centered is size-5">{{ employee[3] }}</td>
+        </tr>
+        {% endfor %}
+    
+
+      </tbody>
+    </table>
+
+
+</body>
+
+</html>    

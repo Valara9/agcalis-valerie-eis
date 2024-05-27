@@ -1,0 +1,81 @@
+body {
+    background-color: skyblue;
+}
+.Main {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 100%;
+    padding: 10px;
+    z-index: 99999;
+    border: 5px solid black;
+}
+
+.Employee {
+    position: fixed;
+    left: 0;
+    top: 90px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.Personal {
+    position: fixed;
+    left: 0;
+    top: 180px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.Educational {
+    position: fixed;
+    left: 0px;
+    top: 270px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.Work {
+    position: fixed;
+    left: 0;
+    top: 360px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.Trainings {
+    position: fixed;
+    left: 0;
+    top: 450px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.Logout {
+    position: fixed;
+    left: 0;
+    top: 530px;
+    color: paleturquoise;
+    background-color: palevioletred;
+    width: 15%;
+    padding: 10px;
+    border: 5px solid black;
+}
+

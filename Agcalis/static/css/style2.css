@@ -1,0 +1,133 @@
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(41, 148, 134, 0.575);
+    padding: 10px;
+    width: 100%;
+    height: 110px;
+    z-index: 100; 
+}
+
+.employee_list{
+    position: fixed;
+    left: 1%;
+    top: 110px;
+    background-color: rgba(40, 86, 117, 0.548);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.employee{
+    color: rgba(52, 102, 117, 0.37);
+    position: fixed;
+    top: 135px;
+    left: 90px;
+}
+
+
+
+.personal{
+    position: fixed;
+    left: 1%;
+    top: 215px;
+    background-color: rgba(68, 112, 138, 0.425);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.personal1{
+    color: rgb(26, 119, 131);
+    position: fixed;
+    top: 235px;
+    left: 45px;
+}
+
+.education{
+    position: fixed;
+    left: 1%;
+    top: 320px;
+    background-color: rgba(42, 110, 128, 0.568);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.educational{
+    color: rgba(54, 126, 114, 0.527);
+    position: fixed;
+    top: 340px;
+    left: 25px;
+}
+
+.experience{
+    position: fixed;
+    left: 1%;
+    top: 425px;
+    background-color: rgba(37, 112, 134, 0.425);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.experience1{
+    color: rgba(42, 131, 134, 0.521);
+    position: fixed;
+    top: 445px;
+    left: 65px;
+}
+
+.trainings{
+    position: fixed;
+    left: 1%;
+    top: 530px;
+    background-color: rgba(79, 136, 138, 0.418);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.training1{
+    color: rgba(26, 146, 150, 0.548);
+    position: fixed;
+    top: 550px;
+    left: 125px;
+}
+
+.logout{
+    position: fixed;
+    left: 1%;
+    top: 635px;
+    background-color: rgba(46, 87, 92, 0.552);
+    padding: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.logout1{
+    color: rgba(114, 193, 209, 0.526);
+    position: fixed;
+    top: 660px;
+    left: 140px;
+}
+
+h2{
+    position: relative;
+    top: 50px;
+    left: 800px;
+}
+
+.table{
+    position: relative;
+    width: 900px;
+    height: auto;
+    top: 100px;
+    left: 500px;
+  }
+
+td {
+    height: 40px;
+  }
+

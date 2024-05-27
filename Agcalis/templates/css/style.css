@@ -1,0 +1,44 @@
+h1 {
+    font-size: 50px;
+    color: #6a4f8d;
+}
+h4 {
+    font-size: 30px;
+    color: #883194;
+}
+label {
+    background-color: pink;
+}
+
+#userLabel {
+    font-size: 20px;
+    color: green;
+}
+#nameLabel {
+    font-size: 20px;
+    color: green;
+}
+#passLabel {
+    font-size: 20px;
+    color: green;
+}
+#genLabel {
+    font-size: 20px;
+    color: green;
+}
+.labelClass {
+    color: pink;
+}
+
+body {
+    background-color: powderblue;
+}
+
+#submit {
+    font-size: 15px;
+    color: palevioletred;
+}
+h5 {
+    font-size: 20px;
+    color: #883194;
+}
