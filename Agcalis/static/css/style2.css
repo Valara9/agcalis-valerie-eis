@@ -1,11 +1,11 @@
-.fixed {
+.fixed1 {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(41, 148, 134, 0.575);
+    background-color: rgba(41, 109, 148, 0.575);
     padding: 10px;
     width: 100%;
-    height: 110px;
+    height: 80px;
     z-index: 100; 
 }
 
@@ -13,14 +13,14 @@
     position: fixed;
     left: 1%;
     top: 110px;
-    background-color: rgba(40, 86, 117, 0.548);
+    background-color: rgb(111, 218, 226);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .employee{
-    color: rgba(52, 102, 117, 0.37);
+    color: rgba(9, 32, 39, 0.37);
     position: fixed;
     top: 135px;
     left: 90px;
@@ -35,7 +35,7 @@
     background-color: rgba(68, 112, 138, 0.425);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .personal1{
@@ -52,7 +52,7 @@
     background-color: rgba(42, 110, 128, 0.568);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .educational{
@@ -69,7 +69,7 @@
     background-color: rgba(37, 112, 134, 0.425);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .experience1{
@@ -86,7 +86,7 @@
     background-color: rgba(79, 136, 138, 0.418);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .training1{
@@ -103,7 +103,7 @@
     background-color: rgba(46, 87, 92, 0.552);
     padding: 10px;
     width: 380px;
-    height: 100px;
+    height: 80px;
 }
 
 .logout1{

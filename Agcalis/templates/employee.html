@@ -12,8 +12,8 @@
 <body>
 
     <div class=".container.is-max-widescreen	">
-        <div class="notification  has-background-success-light">
-            <strong class="	is-size-2 has-text-weight ">EMPLOYEE INFORMATION SYSTEM</strong>
+        <div class="notification  has-background-success">
+            <strong class="	is-size-1 ">EMPLOYEE INFORMATION SYSTEM</strong>
         </div>
     </div>
 
@@ -47,17 +47,17 @@
     <h2 class="logout1 is-size-3	has-text-weight-bold	">Logout<h2>
    </div> 
 
-    <h2 class="title is-3 has-text-weight-grey">EMPLOYEE LIST</h2>
+    <h2 class="title is-3 has-text-weight-grey has-background-success">EMPLOYEE LIST</h2>
 
 
         <table class="table is-bordered">
 
       <thead>
-        <tr class="has-background-success-light">
+        <tr class="has-background-success">
           <th class="has-text-centered">EMPLOYEE</th>
           <th class="has-text-centered">LAST NAME </th>
           <th class="has-text-centered">FIRST NAME </th>
-          <th class="has-text-centered">GENDER </th>
+          <th class="has-text-centered">MIDDLE NAME </th>
 
         </tr>
       </thead>
@@ -65,10 +65,10 @@
       <tbody>
         {% for employee in employees %}
         <tr>
-          <td class="has-text-centered is size-5">{{ employee[0] }}</td>
-          <td class="has-text-centered is size-5">{{ employee[1] }}</td>
-          <td class="has-text-centered is size-5">{{ employee[2] }}</td>
-          <td class="has-text-centered is size-5">{{ employee[3] }}</td>
+          <td class="has-background-success has-text-centered is size-5">{{ employee[0] }}</td>
+          <td class="has-background-success has-text-centered is size-5">{{ employee[1] }}</td>
+          <td class="has-background-success has-text-centered is size-5">{{ employee[2] }}</td>
+          <td class="has-background-success has-text-centered is size-5">{{ employee[3] }}</td>
         </tr>
         {% endfor %}
     
