@@ -9,3 +9,15 @@ class Employees:
         result = Connector.cursor.fetchall()
 
         return result
+
+
+    def add_employee(emp_id , lname, fname, mname):
+        query = "INSERT INTO employees VALUES (%s , %s , %s, %s)"
+
+        try:
+            connector.cursor.execute(query, (emp_id , lname, fname, mname))
+            connector.db.commit()
+
+            return True
+        except:
+            return False

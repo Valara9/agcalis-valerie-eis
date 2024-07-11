@@ -10,7 +10,9 @@
 </head>
 
 <body>
-
+  {% if message != "" %}
+  <div class="has-bg-danger messagebox">{{ message }}</div>
+  {% endif %}
     <div class=".container.is-max-widescreen	">
         <div class="notification  has-background-success">
             <strong class="	is-size-1 ">EMPLOYEE INFORMATION SYSTEM</strong>
